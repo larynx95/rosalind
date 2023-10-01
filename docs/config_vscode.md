@@ -7,6 +7,7 @@
   ```
   "cpp": "cd $dir && g++ $fileName -std=c++2a -o $fileNameWithoutExt && $dir$fileNameWithoutExt && rm $dir$fileNameWithoutExt",
   "rust": "cd $dir && cargo fmt && clear && cargo run && cargo clean",
+  "javascript": "cd $dir && node $fileName",
   ```
 
 ## ▣ Settings for C/C++
